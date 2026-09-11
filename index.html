@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+
+    <!-- BoxIcons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right"></div>
+
+      <div class="book">
+        <!-- PERFIL -->
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <img src="./Logo.png" alt="Foto de Perfil" />
+            <h1>João Pedro</h1>
+            <div class="role-rotator"><span id="roleText">Full Stack Developer</span></div>
+            <h3>Sobre Mim</h3>
+
+            <div class="social-media">
+              <a href="https://github.com/JNEWSP" target="_blank"><i class="bx bxl-github"></i></a>
+              <a href="https://www.instagram.com/_ferjaoo/" target="_blank"><i class="bx bxl-instagram"></i></a>
+              <a href="#" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+            </div>
+
+            <div class="about-text">
+              <p>
+                Desenvolvedor Full Stack com foco em Python e React, em formação
+                pela EBAC. Possuo experiência prática em projetos front-end,
+                back-end, análise de dados, integração de APIs e sistemas
+                interativos. Tenho interesse em tecnologia, inovação, segurança
+                e inteligência artificial, sempre buscando evoluir tecnicamente
+                e aplicar boas práticas no desenvolvimento de soluções modernas,
+                funcionais e escaláveis.
+              </p>
+            </div>
+
+            <div class="btn-box">
+              <a href="#" class="btn">Download CV</a>
+              <a href="#" class="btn contact-me">Contato!</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PÁGINA 1 & 2 -->
+        <div class="book-page page-right turn" id="turn-1">
+          <!-- PROJETOS -->
+          <div class="page-front">
+            <h1 class="title"><i class="bx bxs-rocket"></i>Projetos & Experiência Prática</h1>
+
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bxs-calendar"></i>2023 – Presente</span>
+                <h3>Portfólio Web Interativo</h3>
+                <p>
+                  Desenvolvimento de portfólio pessoal com layout em formato de
+                  livro, animações em CSS e JavaScript, foco em UI/UX,
+                  responsividade e apresentação profissional.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bxs-calendar"></i>2024</span>
+                <h3>Projetos Front-End com React</h3>
+                <p>
+                  Aplicações desenvolvidas com React do Zero ao Pro, utilizando
+                  hooks, componentização, consumo de APIs e boas práticas de
+                  organização de código.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bxs-calendar"></i>2024 – 2025</span>
+                <h3>Back-End, Dados & APIs</h3>
+                <p>
+                  Projetos utilizando Python, SQL para análise de dados,
+                  integração entre front-end e back-end e construção de APIs.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bxs-calendar"></i>Projetos Avançados</span>
+                <h3>IA, Segurança & Sistemas Experimentais</h3>
+                <p>
+                  Exploração prática de Inteligência Artificial, fundamentos de
+                  Cyber Security e desenvolvimento de sistemas interativos.
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">1</span>
+            <span class="nextprev-btn" data-page="turn-1">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+
+          <!-- FORMAÇÃO -->
+          <div class="page-back">
+            <h1 class="title"><i class="bx bxs-graduation"></i>Formação Profissional</h1>
+
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bxs-calendar"></i>EBAC</span>
+                <h3>Desenvolvedor Full Stack Python</h3>
+                <p>
+                  Formação completa em desenvolvimento Full Stack com foco em
+                  Python, React, APIs, bancos de dados, lógica de programação e
+                  projetos práticos.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bxs-calendar"></i>EBAC</span>
+                <h3>React do Zero ao Pro</h3>
+                <p>
+                  Criação de aplicações modernas utilizando React, hooks,
+                  componentização e integração com APIs REST.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bxs-calendar"></i>EBAC</span>
+                <h3>Python, Dados & Inteligência Artificial</h3>
+                <p>
+                  Python para Análise de Dados, SQL para análise de dados e
+                  fundamentos de Inteligência Artificial aplicados a projetos.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bxs-calendar"></i>EBAC</span>
+                <h3>Fundamentos & Cyber Security</h3>
+                <p>
+                  Introdução à Programação, lógica computacional e fundamentos de
+                  Cyber Security aplicados ao desenvolvimento.
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">2</span>
+            <span class="nextprev-btn back" data-page="turn-1">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- SERVIÇOS & SKILLS -->
+        <div class="book-page page-right turn" id="turn-2">
+          <div class="page-front">
+            <h1 class="title"><i class="bx bxs-compass"></i>Áreas de Especialização</h1>
+
+            <div class="services-box">
+              <div class="services-content">
+                <i class="bx bx-code-alt"></i>
+                <h3>Desenvolvimento Full Stack</h3>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-data"></i>
+                <h3>Análise de Dados</h3>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-shield-quarter"></i>
+                <h3>Segurança Digital</h3>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-brain"></i>
+                <h3>Inteligência Artificial</h3>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-layout"></i>
+                <h3>Desenvolvimento Front-End</h3>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-server"></i>
+                <h3>APIs & Back-End</h3>
+              </div>
+
+              <!-- NOVOS CARDS ADICIONADOS BASEADOS NOS SEUS CURSOS -->
+              <div class="services-content">
+                <i class="bx bxl-python"></i>
+                <h3>Python Avançado</h3>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-database"></i>
+                <h3>SQL & Bancos de Dados</h3>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-lock-alt"></i>
+                <h3>Cyber Security</h3>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-code-curly"></i>
+                <h3>Lógica de Programação</h3>
+              </div>
+            </div>
+
+            <span class="number-page">3</span>
+            <span class="nextprev-btn" data-page="turn-2">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+
+          <div class="page-back">
+            <h1 class="title"><i class="bx bxs-badge-check"></i>Competências Técnicas</h1>
+
+            <div class="skills-box">
+              <div class="skills-content">
+                <h3>Front-End</h3>
+                <div class="content">
+                  <span><i class="bx bxl-html5"></i>HTML5</span>
+                  <span><i class="bx bxl-css3"></i>CSS3</span>
+                  <span><i class="bx bxl-javascript"></i>JavaScript</span>
+                  <span><i class="bx bxl-react"></i>React</span>
+                  <span><i class="bx bxl-bootstrap"></i>Bootstrap</span>
+                  <span><i class="bx bxl-figma"></i>Figma</span>
+                </div>
+              </div>
+
+              <div class="skills-content">
+                <h3>Back-End & Dados</h3>
+                <div class="content">
+                  <span><i class="bx bxl-python"></i>Python</span>
+                  <span><i class="bx bxs-data"></i>SQL</span>
+                  <span><i class="bx bx-server"></i>APIs REST</span>
+                  <span><i class="bx bx-data"></i>Pandas</span>
+                  <span><i class="bx bx-line-chart"></i>NumPy</span>
+                  <span><i class="bx bx-network-chart"></i>Flask</span>
+                </div>
+              </div>
+
+              <div class="skills-content">
+                <h3>Ferramentas & Especialidades</h3>
+                <div class="content">
+                  <span><i class="bx bx-shield"></i>Cyber Security</span>
+                  <span><i class="bx bx-brain"></i>IA/ML</span>
+                  <span><i class="bx bx-git-branch"></i>Git</span>
+                  <span><i class="bx bx-terminal"></i>Terminal</span>
+                  <span><i class="bx bx-data"></i>Análise de Dados</span>
+                  <span><i class="bx bx-code-curly"></i>Lógica de Programação</span>
+                </div>
+              </div>
+            </div>
+
+            <span class="number-page">4</span>
+            <span class="nextprev-btn back" data-page="turn-2">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- PORTFÓLIO & CONTATO -->
+        <div class="book-page page-right turn" id="turn-3">
+          <div class="page-front terminal-page">
+            <h1 class="title"><i class="bx bxs-terminal"></i>Terminal do Desenvolvedor</h1>
+
+            <div class="terminal-window">
+              <div class="terminal-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="terminal-title">joaopedro@portfolio:~$</span>
+              </div>
+              <div class="terminal-body">
+                <p><span class="prompt">$</span>whoami</p>
+                <p class="output">João Pedro — Full Stack Developer em formação/p>
+
+                <p><span class="prompt">$</span>cat motivacao.txt</p>
+                <p class="output quote">"Cada linha de código é um passo mais perto de resolver um problema real."</p>
+
+                <p><span class="prompt">$</span>ls stack_favorita/</p>
+                <p class="output">Python.py&nbsp;&nbsp;React.jsx&nbsp;&nbsp;SQL.db&nbsp;&nbsp;CyberSecurity.sh</p>
+
+                <p><span class="prompt">$</span>git log --oneline -3</p>
+                <p class="output">a1b2c3d feat: estudando IA aplicada a projetos reais</p>
+                <p class="output">e4f5g6h fix: mais prática, mais confiança</p>
+                <p class="output">h7i8j9k init: comecei minha jornada com a EBAC</p>
+
+                <p><span class="prompt">$</span>echo $PROXIMO_PASSO</p>
+                <p class="output">Transformar cada curso concluído em um projeto real no ar.</p>
+
+                <p><span class="prompt">$</span><span class="blink-cursor">▌</span></p>
+              </div>
+            </div>
+
+            <span class="number-page">5</span>
+            <span class="nextprev-btn" data-page="turn-3">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+
+          <div class="page-back">
+            <h1 class="title"><i class="bx bxs-envelope"></i>Contato</h1>
+
+            <div class="contact-box">
+              <form>
+                <div class="field-group">
+                  <i class="bx bxs-user"></i>
+                  <input type="text" class="field" placeholder="Nome" required />
+                </div>
+                <div class="field-group">
+                  <i class="bx bxs-envelope"></i>
+                  <input type="email" class="field" placeholder="Email" required />
+                </div>
+                <div class="field-group grow">
+                  <i class="bx bxs-message-rounded-detail"></i>
+                  <textarea class="field" placeholder="Mensagem"></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="btn" />
+              </form>
+            </div>
+
+            <span class="number-page">6</span>
+            <span class="nextprev-btn back" data-page="turn-3">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+
+            <a href="#" class="back-profile">
+              <p>Perfil</p>
+              <i class="bx bxs-user"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
